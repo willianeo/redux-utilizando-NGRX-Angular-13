@@ -13,8 +13,8 @@ export class UsuariosService {
     return this.http.get<UsuarioModel[]>("http://localhost:3000/usuarios");
   }
 
-  getUsuario<UsuarioModel>(id: number){
-    return this.http.get('http://localhost:3000/usuarios/' + id);
+  getUsuario(id: number){
+    return this.http.get<UsuarioModel>('http://localhost:3000/usuarios/' + id);
   }
 
   addUsuario(record:UsuarioModel){

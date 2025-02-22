@@ -17,7 +17,7 @@ export class CadastroUsuariosComponent implements OnInit {
   }
 
   addUsuario(){
-    if (this.model.id ==0) {
+    if (this.model.id !=0) {
       // cadastra
       this.usuarioService.addUsuario(this.model).subscribe();
     } else {
