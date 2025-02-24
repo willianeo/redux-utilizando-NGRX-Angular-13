@@ -1,0 +1,39 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+
+# Angular build output
+/dist/
+/out-tsc/
+
+# Arquivos de configuração de ambiente
+*.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos temporários de editores de código
+.vscode/
+.idea/
+
+# Arquivos de testes
+/coverage/
+
+# Dependências do pacote
+package-lock.json
+yarn.lock
+
+# Arquivos de configurações do Angular
+.angular/
+
+# Arquivos de cache
+/.angular/cache/
+
+# Arquivos de backups
+*.swp
+*.swo
